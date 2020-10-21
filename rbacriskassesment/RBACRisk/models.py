@@ -1,7 +1,6 @@
 from django.db import models
 
 class MidPointObjectType(models.Model):
-    id = models.IntegerField(primary_key=True)
     class_name = models.CharField(max_length=50)
     rest_name = models.CharField(max_length=50)
     common_name = models.CharField(max_length=50)
